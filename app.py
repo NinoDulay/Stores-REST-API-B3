@@ -24,7 +24,7 @@ def create_app(db_url=None):
 
     # SETTINGS
     app.config["PROPAGATE_EXCEPTIONS"] = True
-    app.config["API_TITLE"] = "Stores REST API B3"
+    app.config["API_TITLE"] = "Stores REST API B3 - AltSys Academy"
     app.config["API_VERSION"] = "v1"
     app.config["OPENAPI_VERSION"] = "3.2.1"
     app.config["OPENAPI_URL_PREFIX"] = "/"
