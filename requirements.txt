@@ -1,0 +1,8 @@
+flask
+flask-smorest
+python-dotenv
+marshmallow
+flask_sqlalchemy
+Flask_JWT_Extended
+passlib
+flask-migrate
