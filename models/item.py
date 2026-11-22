@@ -14,9 +14,6 @@ class ItemModel(db.Model):
     # xx.xx = Precision 2 (dalawang decimal point)
     price = db.Column(db.Float(precision=2), unique=False)
 
-    # add a description
-    description = db.Column(db.String, nullable=False, unique=False)
-
     # Pwede maulit (unique=False)
     # PAANO ICOCONNECT SA TABLE NA STORES?????
     store_id = db.Column(db.Integer, db.ForeignKey("stores.id"), nullable=False, unique=False)
